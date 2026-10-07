@@ -1,45 +1,271 @@
-Will Harris
-(@DawGroomer)
+# Will Harris // DawG The Architect
 
-​Lead AI Systems Architect & Local-First Engineer | Kynolith LLC
+### Founder & Architect of Kynolith LLC
+**AI Systems Builder · Developer Tools · Human-Governed AI · Product Implementation**
 
-​I am a systems architect and developer specializing in local-first multi-model orchestration, real-time telemetry, and deterministic AI engineering. Operating under the principles of the Architect's Enchiridion, my work focuses on building stable, high-throughput infrastructure and bridging the gap between raw data and agentic AI.
+I build things.
 
-​At Kynolith LLC, I oversee the development of the Kynolith Nexus ecosystem, driving projects that range from advanced AI utility stacks (orchestrating pipelines with Codex Pro, Gemini, and NotebookLM) to interactive command-line interfaces like the Kynolith CLI, and the broader narrative universe of the Codex of the Kynolith.
+Software. AI systems. Developer tools. Businesses. Stories. Workflows. Sometimes all of them end up connected.
 
+My ideas usually don't start with a product roadmap.
 
-​Repository Status: My primary production codebases (including Kynolith-Core and Forge-Studio) are maintained in private repositories to protect local configurations, API security, and proprietary intellectual property. Open-source releases and architecture specs are featured below.
+They start with friction.
 
-​🛠️ Core Competencies & Engineering Focus
-​Local-First Multi-Model Orchestration: Designing autonomous, on-premise AI pipelines that prioritize privacy, speed, and deterministic outputs.
+Something wastes my time, breaks repeatedly, limits what I can do, or just doesn't make sense to me.
 
-​Real-Time High-Throughput Telemetry: Building low-latency shared-memory bridges to parse and route massive data streams in real-time.
+So I build a solution for myself.
 
-​Deterministic System Contracts: Enforcing strict structural validation using XML schemas and static analysis.
+Then I test the core until I know it actually works.
 
-​Low-Latency Cue Scheduling: Engineering guardrails and execution pipelines for time-critical, voice-driven AI responses.
+Only after that do I start adding the features that make it useful to other people doing similar work.
 
-​Systems & Tooling: TypeScript, Node.js, Electron, .NET SDK, PowerShell, and local LLM/Voice deployment.
+> **Make the engine run first. We can add the cup holders later.**
 
-​🏎️ Featured Project: Kynolith Apex
-​Real-Time Telemetry & Agentic AI Driver Coaching Engine
-​Drawing on my background in sim racing (Le Mans Ultimate, Assetto Corsa, Forza), Kynolith Apex is an advanced coaching application that ingests live telemetry data to provide dynamic, agentic AI voice feedback.
+That pretty much sums up how I build.
 
-​Native Bridge: .NET 9 x64 Shared-Memory Bridge strictly targeting and validating LMU 3.8 Layouts.
+---
 
-​App Server: TypeScript (Node.js 22) operating within an Electron Desktop Shell.
+## Kynolith
 
-​AI Pipeline: Fully local-first LLM & Voice execution pipeline.
+I founded **Kynolith LLC** around one central idea:
 
+> **Kynolith exists to create more capable humans in a world obsessed with creating more capable machines.**
 
-​Architecture & Validation Strategy:
+I use AI every day.
 
-Apex is built on a zero-guesswork philosophy. The native bridge validates structure sizes before reading shared memory; unknown layouts are strictly rejected. The CI/CD pipeline enforces reliability through TypeScript static analysis, deterministic coaching tests, sanitized fixture replays, and accelerated one-hour telemetry soak testing. Metrics are aggressively tracked for accepted, processed, dropped, and out-of-order packets, utilizing distance interpolation to disclose uncertainty rather than faking exact sample-boundary estimates.
+But I don't believe the goal should be making the machine capable while the person using it becomes dependent on it.
 
-​🔗 For full documentation, build instructions, and the latest portable Windows executables, visit the Kynolith-Apex Repository.
+AI can research.
 
-​⚡ Current Stack & Daily Pipeline
-​Infrastructure: Kynolith Nexus AI stack servers.
-​Workflow Automation: Seamless orchestration of code and documentation using localized environments.
+AI can generate.
 
-​Quality Assurance: Test-driven development with a focus on real-world soak testing and strict schema compliance.
+AI can test.
+
+AI can inspect.
+
+AI can help turn the wrench.
+
+**The human still decides what the machine is supposed to become.**
+
+### Human capability amplified by AI. Human authority preserved.
+
+---
+
+## What I'm Building
+
+### Kynolith-CLI
+**In Build**
+
+A lightweight, governed development environment for independent developers and founders.
+
+Kynolith-CLI is being built around a human-directed workflow:
+
+**Investigate → Plan → Authorize → Execute → Test → Review → Accept**
+
+The point isn't to generate code as fast as possible.
+
+The point is to build software that can be understood, tested, repaired, verified, and trusted.
+
+The CLI is designed around principles such as:
+
+- confirm-before-write behavior
+- evidence-based verification
+- explicit task scope
+- recoverable workflows
+- preserved known-good baselines
+- human acceptance before completion
+
+> **I do not vibe code. I build governed machines.**
+
+My next major proving ground is using Kynolith-CLI to build a complete consumer soundboard application while also using the CLI during development of itself.
+
+Yes, that recursion is intentional.
+
+---
+
+### Kynolith Apex
+**Public Beta**
+
+A local-first AI driving coach built for live racing telemetry.
+
+Apex combines real-time telemetry processing with local AI and speech components to provide dynamic driving feedback while keeping core execution on the user's machine.
+
+The project has also been a testing ground for deterministic validation, telemetry contracts, offline speech, local model routing, and desktop application development.
+
+---
+
+### World Forge
+**In Build**
+
+A creative production environment for the Kynolith universe.
+
+World Forge is being developed around the same governed engineering philosophy: controlled changes, versioned state, recovery, evidence, and human acceptance.
+
+---
+
+### Ranger Bill
+**Private R&D**
+
+A local-first verified software-parts library.
+
+The concept is simple:
+
+Don't just find code.
+
+Inventory it.
+
+Inspect it.
+
+Test it.
+
+Qualify it.
+
+Preserve the evidence.
+
+Ranger Bill is being designed around deterministic workers and reproducible verification rather than blindly trusting retrieved snippets.
+
+---
+
+## How I Work
+
+I don't naturally think in isolated tasks.
+
+I visualize systems as a multidimensional web of relationships, dependencies, states, failures, and possible outcomes.
+
+That is one reason AI agents are useful to me.
+
+Not because I want them replacing my judgment.
+
+Because they let me delegate individual execution lanes while I continue working across the larger system.
+
+My basic engineering loop is:
+
+**Friction → Investigation → Core Solution → Testing → Proof → Expansion → Iteration**
+
+A few rules I tend to build by:
+
+- Solve the real problem first.
+- Prove the core before expanding it.
+- Treat failure as data.
+- Preserve working baselines.
+- Repair the faulty part instead of abandoning the machine.
+- Require evidence before calling something complete.
+- Keep the human responsible for final acceptance.
+
+---
+
+## My Background
+
+My path into technology was not traditional.
+
+I grew up around early computers and learned by taking things apart, rebuilding them, and asking how they worked.
+
+Later I spent **17 years as a welder and fabricator**.
+
+That experience still affects the way I approach software.
+
+I tend to think about code the same way I think about machinery:
+
+**Open the hood.  
+Understand what connects to what.  
+Find the bad part.  
+Repair it.  
+Test it.  
+Keep building.**
+
+I've also worked as a small-business owner, dog groomer, author, and creator.
+
+Eventually those different paths started converging into Kynolith.
+
+I don't consider that background unrelated experience.
+
+I consider it the reason I approach technology differently.
+
+---
+
+## What I Work With
+
+**AI & Agent Systems**
+
+Human-in-the-loop workflows · agent orchestration · AI-assisted development · local LLMs · prompt/system design · model routing · verification workflows
+
+**Software & Developer Tools**
+
+Python · TypeScript · React · Node.js · Tauri · Electron · PowerShell · Git · GitHub
+
+**Systems**
+
+Local-first architecture · deterministic workflows · task governance · evidence pipelines · recovery systems · software verification · product prototyping
+
+**Product & Implementation**
+
+AI implementation · technical problem solving · workflow automation · developer experience · technical product design · customer-to-engineering translation
+
+---
+
+## The Kynolith Engineering Standard
+
+We do not vibe-code disposable builds.
+
+We build one machine.
+
+Every change must attach to the authorized machine.
+
+Every failure must produce evidence.
+
+Every repair must replace the faulty part, not abandon the build.
+
+Every accepted part must remain traceable.
+
+Every agent must know what it touched, why it touched it, and how it was verified.
+
+The goal is not a lucky working demo.
+
+**The goal is a governed machine that can be trusted, repaired, shipped, and taught.**
+
+---
+
+## Beyond Software
+
+Kynolith is larger than a software company.
+
+It includes software, philosophy, books, education, storytelling, games, community, and longer-term infrastructure.
+
+Different tools.
+
+Different mediums.
+
+Same objective:
+
+### Increase human capability.
+
+I write under the name **Elias Thorne** and created the *Dog-Stone Saga* and *The Architect's Enchiridion* as different ways of exploring many of the same ideas that influence the technology.
+
+Some people learn by reading documentation.
+
+Some learn through stories.
+
+Some learn by doing.
+
+I want to build tools for all three.
+
+---
+
+## Currently
+
+🔨 Building Kynolith-CLI toward an installable hybrid TUI  
+🧪 Preparing real-world consumer-product testing through the CLI  
+🏗️ Building World Forge  
+🔬 Developing local-first governed AI workflows  
+📚 Expanding the Kynolith philosophy and Dog-Stone Saga  
+🌐 Building Kynolith in public
+
+---
+
+## Connect
+
+🌐 **Kynolith:** https://kynolith.com
+
+🐺 **Founder:** Will Harris // DawG
+
+> **Don't be me. Build with me.**
